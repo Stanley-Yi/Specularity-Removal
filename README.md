@@ -1,5 +1,5 @@
 # Specularity-Removal
-This algorithm works for **specularity removal**.
+This algorithm mainly works for **specularity removal**, adapted from https://github.com/muratkrty/specularity-removal.
 
 You can see specific implementation of this algorithm in `specularity.py`. 
 You can use `processing.py` to process your own images and use `video.py` for your own videos.
