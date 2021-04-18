@@ -28,3 +28,10 @@ def processing(img):
     # cv2.imwrite('figs/Impainted_telea.png',telea)
     # cv2.imwrite('figs/Impainted_ns.png',ns)
     return telea
+
+if __name__ == '__main__':
+    img = cv2.imread('1.png')
+    res = processing(img)
+    cv2.imshow('image', res)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
